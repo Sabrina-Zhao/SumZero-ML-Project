@@ -24,10 +24,10 @@ SumZero-ML-Project/
 ## 📊 Project Workflow
 
 ### 1. Data Cleaning and Feature Construction
-- Raw data includes investment theses, idea metadata, user interactions (views, likes, comments), and price targets.
+- Raw data includes investment theses, idea metadata, user interactions (views, likes, comments), and timeframe.
 - Processing steps:
   - Merge and clean multiple CSVs (`ideas.csv`, `comments.csv`, etc.)
-  - Parse fields such as `direction`, `price_target`, `created`, and `fs_perm_sec_id`
+  - Parse fields such as `direction`, `timeframe`, `created`, and `fs_perm_sec_id`
   - Engineer features such as text length, engagement score, and target horizon
 
 ### 2. Sentiment Analysis
@@ -57,7 +57,7 @@ SumZero-ML-Project/
 Due to confidentiality restrictions, original raw data from the SumZero platform cannot be publicly shared.
 
 We provide sample files under `data/`:
-- Only first 3 rows per dataset are included
+- Only first 5 rows per dataset are included
 - All contents have been anonymized (`sample_column_name`)
 - Full column structure is preserved for reproducibility
 
@@ -92,6 +92,6 @@ Master of Quantitative Economics @ UCLA
 
 ## 🧠 Notes
 
-- This project was part of a real-world collaboration and academic capstone.
+- This project was part of a real-world collaboration and academic project.
 - The model can be extended to classification (top vs. bottom ideas) or combined with portfolio construction logic.
 - All results are for educational and exploratory purposes only.
