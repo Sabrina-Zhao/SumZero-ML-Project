@@ -81,7 +81,7 @@ See [`data/README.md`](data/README.md) for the public file inventory and handlin
 
 ## 🛠️ Technology
 
-Python, pandas, NumPy, scikit-learn, yfinance, OpenAI API, SHAP, matplotlib, and Jupyter.
+Python, pandas, NumPy, NLP, scikit-learn, yfinance, OpenAI API, SHAP, matplotlib, and Jupyter.
 
 ## 👤 Author
 
