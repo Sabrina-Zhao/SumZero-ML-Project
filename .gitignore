@@ -167,6 +167,13 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# macOS
+.DS_Store
+
+# Confidential source data: keep only explicitly anonymized previews
+/data/*.csv
+!/data/sample_*.csv
+
 # Ruff stuff:
 .ruff_cache/
 
